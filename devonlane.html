@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cool Barber</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Montserrat&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <nav class="header__menu">
+          <a class="logo" href="index.html">
+            <img class="logo__img" src="./images/logo.svg" alt="logo">
+          </a>
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#">
+                About Us
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="team.html">
+                Our masters
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">
+                Portfolio
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">
+                Testimonials
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">
+                Contacts
+              </a>
+            </li>
+          </ul>
+          <div class="contact">
+            <a class="contact__link contact__link--addres" href="#">
+              302 W 50th St,
+              NY, NY 10019
+              <svg class="contact__icon" width="36" height="36">
+                <use href="./images/symbol-defs.svg#icon-lokal"></use>
+              </svg>
+            </a>
+            <a class="contact__link" href="tel:88000000000">
+              <span class="contact__phone">
+                8 (800) 000-00-00
+                <span class="contact__timetable">
+                  Daily from 9 to 20
+                </span>
+              </span>
+              <svg class="contact__icon" width="36" height="36">
+                <use href="./images/symbol-defs.svg#icon-phone"></use>
+              </svg>
+            </a>
+          </div>
+          <button class="header__menu-btn" type="button">
+            <span class="header__menu-line"></span>
+            <span class="sr-only">open menu</span>
+          </button>
+        </nav>
+        <div class="mobile-menu">
+          <button class="close mobile-menu__close" type="button">
+            <span class="close__line"></span>
+          </button>
+          <a class="logo mobile-menu__logo" href="index.html">
+            <img class="logo__img" src="./images/logo.svg" alt="logo">
+          </a>
+          <ul class="mobile-menu__list">
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="#">
+                About Us
+              </a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="team.html">
+                Our masters
+              </a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="#">
+                Portfolio
+              </a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="#">
+                Testimonials
+              </a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="#">
+                Contacts
+              </a>
+            </li>
+          </ul>
+          <a class="mobile-menu__btn btn btn--mobile popup-link" href="#popup">
+            Book now
+          </a>
+          <div class="contact mobile-menu__contact">
+            <a class="contact__link mobile-menu__contact-link contact__link--addres" href="#">
+              <svg class="contact__icon" width="36" height="36">
+                <use href="./images/symbol-defs.svg#icon-lokal"></use>
+              </svg>
+              302 W 50th St,
+              NY, NY 10019
+            </a>
+            <a class="contact__link mobile-menu__contact-link" href="tel:88000000000">
+              <svg class="contact__icon" width="36" height="36">
+                <use href="./images/symbol-defs.svg#icon-phone"></use>
+              </svg>
+              <span class="contact__phone">
+                8 (800) 000-00-00
+                <span class="contact__timetable">
+                  Daily from 9 to 20
+                </span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <main>
+    <section class="main">
+      <div class="container">
+        <div class="main__inner">
+          <h1 class="main__title">
+            Our craftsmen make visitors beautiful and happier
+          </h1>
+          <p class="main__text">
+            Text placed at the bottom of the title to reveal details
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="master">
+      <div class="container">
+        <div class="master__top">
+          <div class="master__box">
+            <img class="master__box-img" src="./images/DevonLane/main.jpg" alt="photo">
+            <h2 class="master__title">
+              Devon Lane
+            </h2>
+          </div>
+          <div class="master__box">
+            <p class="master__text">
+              Description of the master, his education, achievements and merits
+            </p>
+            <p class="master__text">
+              Description of the styles and specializations of the master
+            </p>
+          </div>
+        </div>
+        <ul class="master__content">
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/1.jpg" alt="photo">
+            </a>
+          </li>
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/2.jpg" alt="photo">
+            </a>
+          </li>
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/3.jpg" alt="photo">
+            </a>
+          </li>
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/4.jpg" alt="photo">
+            </a>
+          </li>
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/5.jpg" alt="photo">
+            </a>
+          </li>
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/6.jpg" alt="photo">
+            </a>
+          </li>
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/7.jpg" alt="photo">
+            </a>
+          </li>
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/8.jpg" alt="photo">
+            </a>
+          </li>
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/1.jpg" alt="photo">
+            </a>
+          </li>
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/2.jpg" alt="photo">
+            </a>
+          </li>
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/3.jpg" alt="photo">
+            </a>
+          </li>
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/4.jpg" alt="photo">
+            </a>
+          </li>
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/5.jpg" alt="photo">
+            </a>
+          </li>
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/6.jpg" alt="photo">
+            </a>
+          </li>
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/7.jpg" alt="photo">
+            </a>
+          </li>
+          <li class="master__item">
+            <a class="master__link" href="#">
+              <img class="master__img" src="./images/DevonLane/8.jpg" alt="photo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="consultation">
+      <div class="container">
+        <div class="consultation__content">
+          <div class="consultation__box">
+            <h2 class="consultation__title">
+              Get in consultation with our expert barbers
+            </h2>
+            <p class="consultation__text">
+              Expand Call-to-Action Details
+            </p>
+          </div>
+          <form class="consultation__form">
+            <input class="consultation__input" type="text" id="phone" placeholder="+1 (___) ___-__-__" required>
+            <input class="consultation__input" type="email" placeholder="Email" required>
+            <button class="btn btn--black" type="submit">
+              Book now
+            </button>
+          </form>
+          <form class="consultation__form-checkbox">
+            <label class="consultation__label">
+              <input class="consultation__checkbox-hidden" type="checkbox" checked>
+              <span class="consultation__checkbox">
+                <svg class="consultation__checkbox-icon" width="8" height="8">
+                  <use href="./images/symbol-defs.svg#icon-check"></use>
+                </svg>
+              </span>
+              By clicking on the button, you agree to the terms of processing personal data
+            </label>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts section">
+      <div class="container">
+        <div class="contacts__inner">
+          <h2 class="contacts__title">
+            Contacts
+          </h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <a class="contacts__link" href="tel:88000000000">
+                <svg class="contacts__link-icon" width="54" height="54">
+                  <use href="./images/symbol-defs.svg#icon-phone"></use>
+                </svg>
+                8 (800) 000-00-00
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="mailto:info@sitename.com">
+                <svg class="contacts__link-icon" width="54" height="54">
+                  <use href="./images/symbol-defs.svg#icon-sms"></use>
+                </svg>
+                info@sitename.com
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="#">
+                <svg class="contacts__link-icon" width="54" height="54">
+                  <use href="./images/symbol-defs.svg#icon-lokal"></use>
+                </svg>
+                302 W 50th St, NY, NY 10019
+              </a>
+            </li>
+            <li class="contacts__item">
+              <span class="contacts__link" href="#">
+                <svg class="contacts__link-icon" width="54" height="54">
+                  <use href="./images/symbol-defs.svg#icon-time"></use>
+                </svg>
+                Daily from 9 to 20
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="footer__text">
+          © All rights reserved
+        </p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="js/main.min.js"></script>
+</body>
